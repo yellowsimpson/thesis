@@ -1,0 +1,7 @@
+names:
+- ll
+nc: 1
+path: /home/bert/Downloads/datasets/yolo_seg/images
+test: test
+train: train
+val: val

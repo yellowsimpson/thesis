@@ -1,0 +1,8 @@
+names:
+- da
+- ll
+nc: 2
+path: /Users/mac/Desktop/BDD100k/bdd100k/images/100k
+test: test
+train: train
+val: val
