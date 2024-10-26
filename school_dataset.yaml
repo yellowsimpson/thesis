@@ -1,0 +1,6 @@
+names:
+  0: car
+  1: person
+test: C:\Users\shims\Desktop\github\thesis\school_dataset\test
+train: C:\Users\shims\Desktop\github\thesis\school_dataset\train
+val: C:\Users\shims\Desktop\github\thesis\school_dataset\val
