@@ -2,11 +2,11 @@ import cv2
 from ultralytics import YOLO
 
 # 모델 로드
-detection_model = YOLO('C:\\Users\\shims\\Desktop\\github\\thesis\\runs\\detect\\train4\\weights\\best.pt')
-segmentation_model = YOLO('C:\\Users\\shims\\Desktop\\github\\thesis\\YOLO_SEG_NCNN\\weights\\yolov8\\both\\1004\\weights\\best.pt')
+detection_model = YOLO('/Users/mac/Desktop/github/thesis/yolov8m.pt')
+segmentation_model = YOLO('/Users/mac/Desktop/github/thesis/YOLO_SEG_NCNN/weights/yolov8/both/1004/weights/best.pt')
 
 # 이미지 경로 설정
-image_path = 'C:\\Users\\shims\\Desktop\\github\\thesis\\YOLO_DEC_NCNN\\shcool-dataset\\train\\images\\FILE240508-095102.AVI_image_20.jpg'
+image_path = '/Users/mac/Desktop/github/thesis/YOLO_DEC_NCNN/shcool-dataset/train/images/FILE240509-093910.AVI_image_8.jpg'
 
 # Detection 결과
 detection_results = detection_model(image_path)
