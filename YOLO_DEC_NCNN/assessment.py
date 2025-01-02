@@ -3,8 +3,9 @@ from ultralytics import YOLO
 
 # model = YOLO('yolov8s.pt')
 
-model = YOLO('C:\\Users\\shims\\Desktop\\github\\thesis\\runs\\detect\\train4\\weights\\best.pt')
-results = model('C:\\Users\\shims\\Desktop\\github\\thesis\\yolo_detect_model\\shcool-dataset\\train\\images\\FILE240508-095102.AVI_image_22.jpg')
+model = YOLO('C://Users//shims//Desktop//github//thesis//yolov8m.pt')
+
+results = model('C://Users//shims//Desktop//github//thesis//FILE240513-083936.AVI_image_15.jpg')
 
 plots = results[0].plot()
 cv2.imshow("plot", plots)

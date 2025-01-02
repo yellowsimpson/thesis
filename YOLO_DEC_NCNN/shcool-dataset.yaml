@@ -1,0 +1,6 @@
+names:
+  0: car
+  1: personn
+test: C:\Users\shims\Desktop\github\thesis\yolo_detect_model\shcool-dataset\test
+train: C:\Users\shims\Desktop\github\thesis\yolo_detect_model\shcool-dataset\train
+val: C:\Users\shims\Desktop\github\thesis\yolo_detect_model\shcool-dataset\valid
